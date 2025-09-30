@@ -1,0 +1,10 @@
+name: Sanity Check Workflow
+
+on: [push]
+
+jobs:
+  test-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a message
+        run: echo "The workflow is triggering correctly!"
