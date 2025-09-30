@@ -50,6 +50,8 @@ public class NumberToolsTest {
 		expected = 20;
 		actual = NumberTools.computeStatistic("sum", new double[] {0,2,4,6,8});
 		assertEquals(expected, actual, TOLERANCE);
+		
+		assertEquals(0, 1, TOLERANCE);
 	}
 
 }
